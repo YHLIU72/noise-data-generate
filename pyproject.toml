@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hvac-aeroacoustic-rom"
+version = "0.1.0"
+description = "Dependency-free parameterized HVAC aeroacoustic reduced-order simulation engine"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+hvac-rom-generate = "hvac_aeroacoustic_rom.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

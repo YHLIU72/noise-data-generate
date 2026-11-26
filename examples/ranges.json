@@ -1,0 +1,7 @@
+{
+  "rpm": {"low": 1800, "high": 3600},
+  "blade_count": {"values": [35, 39, 43], "kind": "int"},
+  "tongue_gap_ratio": {"low": 0.06, "high": 0.10},
+  "blade_spacing_modulation": {"low": 0.0, "high": 1.2},
+  "system_resistance_multiplier": {"low": 0.8, "high": 1.25}
+}
